@@ -56,7 +56,8 @@
     "@commitlint/config-conventional": "^13.1.0",
     "husky": "^7.0.2",
     "is-ci": "^3.0.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "web-worker": "^1.5.0"
   },
   "resolutions": {
     "monaco-editor-webpack-plugin": "2.0.0",

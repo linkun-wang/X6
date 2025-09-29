@@ -16,6 +16,7 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "allowSyntheticDefaultImports": true,
+    "types": [],
     "paths": {
       "@/*": [
         "src/*"

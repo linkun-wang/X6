@@ -1,0 +1,68 @@
+{
+  "id": "root",
+  "layoutOptions": {
+    "elk.algorithm": "layered",
+    "elk.direction": "DOWN",
+    "elk.spacing.nodeNode": "30",
+    "elk.layered.spacing.nodeNodeBetweenLayers": "50"
+  },
+  "children": [
+    {
+      "id": "node1",
+      "width": 100,
+      "height": 50,
+      "labels": [{"text": "开始节点"}]
+    },
+    {
+      "id": "node2", 
+      "width": 100,
+      "height": 50,
+      "labels": [{"text": "处理节点A"}]
+    },
+    {
+      "id": "node3",
+      "width": 100,
+      "height": 50,
+      "labels": [{"text": "处理节点B"}]
+    },
+    {
+      "id": "node4",
+      "width": 100,
+      "height": 50,
+      "labels": [{"text": "判断节点"}]
+    },
+    {
+      "id": "node5",
+      "width": 100,
+      "height": 50,
+      "labels": [{"text": "结束节点"}]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge1",
+      "sources": ["node1"],
+      "targets": ["node2"]
+    },
+    {
+      "id": "edge2", 
+      "sources": ["node1"],
+      "targets": ["node3"]
+    },
+    {
+      "id": "edge3",
+      "sources": ["node2"],
+      "targets": ["node4"]
+    },
+    {
+      "id": "edge4",
+      "sources": ["node3"],
+      "targets": ["node4"]
+    },
+    {
+      "id": "edge5",
+      "sources": ["node4"],
+      "targets": ["node5"]
+    }
+  ]
+}
