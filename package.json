@@ -62,5 +62,8 @@
   "resolutions": {
     "monaco-editor-webpack-plugin": "2.0.0",
     "monaco-editor": "0.21.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^11.2.6"
   }
 }
