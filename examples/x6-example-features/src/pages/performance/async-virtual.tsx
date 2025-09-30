@@ -173,8 +173,6 @@ export default class Example extends React.Component<
   componentDidMount() {
     const graph = (this.graph = new Graph({
       container: this.container,
-      width: 1000,
-      height: 600,
       // 启用历史记录功能
       history: {
         enabled: true,
@@ -1072,6 +1070,8 @@ export default class Example extends React.Component<
           style={{
             border: '1px solid #000',
             boxShadow: 'none',
+            width: '100%',
+            height: 'calc(100% - 160px)',
           }}
         />
       </div>
